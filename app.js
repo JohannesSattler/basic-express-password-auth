@@ -17,7 +17,6 @@ const auth = basicAuth({
 
 
 app.get('/', (req, res) => {
-  console.log('dassdasda')
   const reject = () => {
     res.setHeader('www-authenticate', 'Basic')
     res.sendStatus(401)
@@ -31,7 +30,7 @@ app.get('/', (req, res) => {
   
   const [username, password] = Buffer.from(authorization.replace('Basic ', ''), 'base64').toString().split(':')
   
-  if(! (username === 'admin' && password === 'fWPZZ3<p&xjFVY23')) {
+  if(! (username === 'admin' && password === 'ykExH&k9u')) {
     return reject()
   }
 

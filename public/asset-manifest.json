@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1ec6591.css",
-    "main.js": "/static/js/main.698e0d57.js",
+    "main.css": "/static/css/main.6ddde744.css",
+    "main.js": "/static/js/main.e3f07ad7.js",
     "static/js/787.ff00e24e.chunk.js": "/static/js/787.ff00e24e.chunk.js",
     "static/media/4_Tagesablauf.mp4": "/static/media/4_Tagesablauf.b01e4f426a95debc6975.mp4",
     "static/media/3_das_kannst_du_tun.mp4": "/static/media/3_das_kannst_du_tun.26a60e0b3b236c2a3e00.mp4",
     "static/media/Willkommensaudio_Einf_hrung.mp3": "/static/media/Willkommensaudio_Einf_hrung.b4f1be9ae2fd19184171.mp3",
     "static/media/Design_ohne_Titel__9_.jpg": "/static/media/Design_ohne_Titel__9_.5c99708c8e0d496af27c.jpg",
     "index.html": "/index.html",
-    "main.d1ec6591.css.map": "/static/css/main.d1ec6591.css.map",
-    "main.698e0d57.js.map": "/static/js/main.698e0d57.js.map",
+    "main.6ddde744.css.map": "/static/css/main.6ddde744.css.map",
+    "main.e3f07ad7.js.map": "/static/js/main.e3f07ad7.js.map",
     "787.ff00e24e.chunk.js.map": "/static/js/787.ff00e24e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1ec6591.css",
-    "static/js/main.698e0d57.js"
+    "static/css/main.6ddde744.css",
+    "static/js/main.e3f07ad7.js"
   ]
 }
