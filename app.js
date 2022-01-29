@@ -1,20 +1,8 @@
-
-const basicAuth = require('express-basic-auth');
 const express = require('express');
 const path = require('path');
 const app = express();
-const passport = require('passport-http')
 
 const PORT = process.env.PORT || 5000;
-
-const auth = basicAuth({
-  users: {
-    admin: '123',
-    user: '456',
-  },
-});
-
-
 
 app.get('/', (req, res) => {
   const reject = () => {
@@ -29,8 +17,8 @@ app.get('/', (req, res) => {
   }
   
   const [username, password] = Buffer.from(authorization.replace('Basic ', ''), 'base64').toString().split(':')
-  
-  if(! (username === 'admin' && password === 'ykExH&k9u')) {
+
+  if(!(username === 'admin' && password === 'ykExH&k9u')) {
     return reject()
   }
 
@@ -41,8 +29,4 @@ app
 .use(express.static(path.join(__dirname, '/public')))
 .listen(PORT, () => console.log(`Listening on ${PORT}`));
 
-/* app.get('/', passport.authenticate('basic', { session: false }), (req, res) => {
-  res.sendFile(path.join(`${__dirname}/../build/index.html`))
-})
- */
 
